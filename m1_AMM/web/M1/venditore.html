@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Aggiungi oggetti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Stefano Fenu">
+        <meta name="description" content="Modulo Aggiunta oggetti">
+    </head>
+    <body>
+        <h1>Carica oggetti</h1>
+        <p> Questo modulo vi permette di caricare nella piattaforma, in modo
+            semplice e veloce, gli orologi che desiderate mettere in vendita.
+        </p>
+        <br><br>
+        <form action="venditore.html" method="post">
+            
+            <label for="nome">Nome oggetto</label>
+            <input type="text" name="add_item" id="nome"/>
+            
+            <br>
+            
+            <label for="image">Carica immagine</label>
+            <input type="text" name="image" id="image"  />
+            
+            <br>
+             
+            <label for="description">Descrizione oggetto</label>
+            <textarea rows="5" cols="25" 
+                      name="add_description" id="description">
+            </textarea>
+            
+            <br>
+            
+            <label for="price">Prezzo</label>
+            <input type="text" name="prezzo" id="price"  />
+            
+            <br>
+            
+            <label for="quantità"> Quantit&agrave;</label>
+            <input type="text" name="num_item" id="quantità"  />
+            
+            <br>
+            
+            <button type="submit">Carica</button>
+        </form>
+        <br><br>
+        
+        <nav>
+            <h4> Riferimenti utili </h4>
+            <ul>
+                <li>
+                    <a href="descrizione.html">
+                       Il nostro sito
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html">
+                        Accedi
+                    </a>
+                </li>
+            </ul>
+        </nav> 
+    </body>
+</html>
